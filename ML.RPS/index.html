@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset="utf-8">
+<title>FCB</title>
+    <!--styles.css is linked here-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+        <!-- Inital 'menu' screen -->
+        <div id= containerbefore>
+            <div>
+                Welcome to the best Rock Paper Sicssors game you will ever see!
+            </div>
+            <span id=startbutton1>
+                <input type=button value= "lets see it" id = start>
+            </span>
+            <span id=startbuttons2>
+                <input type=button value= "Continue" id = "continue">
+                <input type=button value= "New Game" id = "newGamebtn">
+            </span>
+        </div>
+    <!--There are different "containers" to hold the majority of the game, 
+        one for the entire page and another to better handle the images.-->
+        <div id = container>
+            <div>
+                Foot Cockraoch Bomb!<br>
+                Pick a picture and see if you win!
+            </div>
+            <div id = containerinner>
+            <!--The images are also used as buttons for the javascript game.js-->
+                <img src="images/foot.jpg" alt = "Stay away from this smelly one" class = center id = footbtn>
+                <img src="images/cockroach.png" alt = "You can't nuke it, but you can squash it!" class = center id = cockroachbtn>
+                <img src="images/bomb.jpg" alt = "Pretty hard to miss, yet the bug lives." class = center id = nukebtn>
+                <br>
+            <!--fist and mirrored fist start as placeholder images before the 
+                game starts.-->
+                <img src="images/fist.jpg" alt = "Your choice!" class = center id="playerimg">
+                <img src="images/fistm.jpg" alt = "Their choice!" class = center id="comimg">
+            </div>
+            <!--panel is used to display game feedback-->
+            <div id="panel"></div>
+            <span id=gameButtons>
+                <input type=button value= "Reset Game" id = resetbtn>
+                <input type=button value= "Back to Start" id = backbtn>
+            </span>
+        </div>
+    <!--The script game.js is loaded afterwards so that panel is located for 
+        the feedback-->
+    <script src = "game.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+done 1) Your project should consist of an HTML document and 3 directories for each of the following: 1) an external JavaScript file which contains all your JavaScript code, 2) an external CSS file, and 3) all your image files. 
+
+done 2) The game will need to use images. For  example a  rock, paper, scissors image. You will want to use different images such as cat, dog, bird or whatever the theme of your game may be.  Incorporate some type of image rollover or image change in response to the mouse. 
+
+done 3) Utilize an event listener to detect when a user has selected their object (such as the cat, dog, or bird).
+
+done 4) Generate an integer random number for deciding on the computer’s choice.
+
+done? 5) In the game screen, add text or images to the document for the resulting player win or lose. The game screen must also have: 
+	   1) a counter of some sort that indicates how many rounds have been played, and  
+	   2) the current game score (like the number of user wins and the number of computer wins). 
+
+done 6) Part of your challenge is to create a user interface that is easy to navigate but entertaining to play as well. 
+       To that end, all user output should utilize the innerHTML property to write text to the page. 
+       Do NOT use popup windows (alert, prompt, or confirm) or document.write.  
+
+wip 7) Comment your code with informative or helpful comments and add your name to the top of the code. 
+         Also indent your HTML, CSS and JavaScript to make everything readable. 
+
+do b4  8) Your game should run as expected without errors, so be sure to test!  HTML and CSS should pass W3C validation. 
+turnin   You do not have to pass JSLint or JSHint, but these sites are very useful for spotting errors in your code. 
+    	We will talk about JSLint and JSHint during the quarter.
+
+9) Teams: You will work in small teams of 3-4 people to peer review each other's projects. 
+   There will be three check-ins during the remainder of the quarter. 
+   I will provide more detail on this in the upcoming week about what is expected for each peer check in.  
+   You should do your own code and you do not have to show your code to one another. 
+   However you should be prepared to talk about your project with your peers and to explain how things are working. 
+   This will be a chance to ask questions from one another. 
+   On the last day of the quarter 12/5 you will take three minutes to showcase the game to the class.
+
+__________________________________________________________________________________________________________________________
+
+November 7th: First Peer Meet Up
+Discuss the game you will be doing. What type of images? What challenges do you see?
+
+November 14th:  Second Peer Meet Up
+Discuss how the game logic is progressing. 
+
+November 26th: Third Peer Meet Up
+Show game so far. How is game logic going. Errors and debugging issues?
+
+December 5th: Student Presentations. 
+We will take 3 minutes for each of us to quickly run through our final rock paper scissor style of game.
+_________________________________________________________________________________________________________________________
+
+PROG109: Rock-Paper-Scissors
+Criteria	
+Start, End, Play Screens
+Start screen should be displayed that serves as start of game. It must have some kind of game information on it 
+(like rules of the game, scoring, or how to play). There should also be a button, that when clicked, will replace the start screen 
+with a game screen. After the game screen there should be a final end of game screen.
+
+Game imagery
+Game needs to use images to represent user choices and at least one image to represent computer choice. 
+Incorporate JavaScript image rollovers (that is, an image swaps) in response to mouse actions. 
+Do NOT use CSS styles for image rollovers.
+
+Event handling
+Use an event listener for detecting when a user has made a selection. 
+Do NOT use event handler attributes embedded in HTML tags (see p. 251 of textbook if unsure what these are).
+
+Random number
+Generate a random number for deciding on the computer's move. The number must be an integer.
+
+Game scoring
+Add text and/or images to the document that displays the game status after each round of play.
+
+Commenting Code
+Add comments in your own words that explain how the code is working.
+
+User interface and game play
+Game should be easy to navigate and straightforward to play. Use CSS to enhance the design of the game.
+
+Code readability and organization
+Keep all HTML, CSS, and JavaScript in separate files. CSS, images, and JavaScript should also be in separate directories. 
+Comment the code to explain your understanding and code should be easy to follow.
+
+Validation and execution
+HTML and CSS need to validate. Program should run without errors. 
+Testing with JSLint or JSHint is not required, but is helpful.
+
+Submission
+Submission should be on time by end of day of the due date. Upload the correct files to your server. 
+Place all files on your server so that they viewable on the web. Don't just link to a zip file.

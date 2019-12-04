@@ -1,0 +1,62 @@
+body {
+    background-color: aqua;
+    font-family: courier;
+        width: 500px; 
+	margin: 0 auto;
+}
+
+img {
+    margin: 5px;
+    border: solid;
+    border-width: thin;
+    height: 100px;
+    width: 100px;
+    }
+#containerinner {
+    height: 225px;
+    width: 400px;
+    border: dotted;
+    border-width: thin;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#container {
+    background-color: aquamarine;
+    height: 445px;
+    width: 500px;
+    position: absolute;
+    border-radius: 25px;
+    border: solid;
+    display: none;
+}
+div {
+    text-align: center;
+    padding: 20px;
+}
+#containerbefore {
+    background-color: aquamarine;
+    height: 85px;
+    width: 500px;
+    position: absolute;
+    border-radius: 25px;
+    border: solid;
+    display: block;
+}
+
+#startbutton1 {
+ display: block;   
+}
+
+#startbuttons2 {
+    display: none;
+}
+
+#gameButtons {
+    display: none;
+}
+
+#panel {
+    padding: 5px;
+}
